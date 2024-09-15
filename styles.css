@@ -11,45 +11,6 @@ html {
   color: #eee;
 }
 
-.main {
-  width: 100vw;
-  height: 100vh;
-  background-color: rgb(6, 26, 0);
-  position: relative;
-}
-
-.street-x {
-  background-color: #454545;
-  padding: 80px;
-  width: 100vw;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.street-y {
-  background-color: #454545;
-  padding: 80px;
-  height: 100vh;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.line-x {
-  position: absolute;
-  padding: 10px;
-  background-color: rgba(255, 255, 0, 0.6);
-  width: 100vw;
-  margin-left: -5.6vw;
-  top: 45%;
-}
-
-.line-y {
-  position: absolute;
-  padding: 10px;
-  background-color: rgba(255, 255, 0, 0.6);
-  height: 100vh;
-  margin-top: -8rem;
-  left: 45%;
+h1 {
+  color: red;
 }
