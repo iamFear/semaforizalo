@@ -1,0 +1,9 @@
+Lista de pasos pendientes:
+
+HTML y CSS (Estilos):
+
+1. Disenar y estilizar la estructura de la calle, buscando responsividad y reduccion de codigo
+2. Diseno y estilo de elementos de funcionalidad tales como los botones, vehiculos, luces del semaforo, etc...
+
+JavaScript (funcionalidad):
+1. 

@@ -14,3 +14,40 @@ html {
 h1 {
   color: red;
 }
+
+.main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #525252;
+}
+
+.line {
+  /* Position */
+  position: absolute;
+  transform: translateY(-50%);
+  
+  /* Sizes */
+  padding: 5px;
+  width: 40vw;
+
+  /* Aesthetic */
+  background-color: yellow;
+  border-top: 5px solid rgba(0, 0, 0, 0.8);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.8);
+}
+
+.line-y--top {
+  top: calc(100vh/3);
+}
+
+.line-y--bottom {
+  top: calc((100vh/3)*2);
+}
+
+.line-y--middle {
+  top: calc(100vh/2);
+  border-top: 5px dashed rgba(0, 0, 0, 0.8);
+  border-bottom: 5px dashed rgba(0, 0, 0, 0.8);
+}
