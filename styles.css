@@ -11,43 +11,46 @@ html {
   color: #eee;
 }
 
-h1 {
-  color: red;
-}
-
+/* Application Container */
 .main {
   position: relative;
   width: 100vw;
   height: 100vh;
 
-  background-color: #525252;
+  background-color: #27272a;
 }
 
+/* General lines styling */
 .line {
   /* Position */
   position: absolute;
   transform: translateY(-50%);
-  
+
   /* Sizes */
   padding: 5px;
-  width: 40vw;
+  width: 37.5vw;
 
   /* Aesthetic */
-  background-color: yellow;
-  border-top: 5px solid rgba(0, 0, 0, 0.8);
-  border-bottom: 5px solid rgba(0, 0, 0, 0.8);
+  background-color: rgba(250, 204, 21, 0.6);
+  border-top: 5px solid rgba(0, 0, 0);
+  border-bottom: 5px solid rgba(0, 0, 0);
 }
 
-.line-y--top {
-  top: calc(100vh/3);
+.line-x--top {
+  top: calc(100vh / 3);
 }
 
-.line-y--bottom {
-  top: calc((100vh/3)*2);
+.line-x--bottom {
+  top: calc((100vh / 3) * 2);
 }
 
-.line-y--middle {
-  top: calc(100vh/2);
-  border-top: 5px dashed rgba(0, 0, 0, 0.8);
-  border-bottom: 5px dashed rgba(0, 0, 0, 0.8);
+.line-x--middle {
+  top: calc(100vh / 2);
+  border-top: 5px dashed rgba(0, 0, 0);
+  border-bottom: 5px dashed rgba(0, 0, 0);
+}
+
+/* Right lines styling */
+.line-right {
+  left: 65vw;
 }

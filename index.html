@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <!-- We use defer when the functionality relies on the DOM, and async when it doesn't rely on it an can run in the background -->
-  <script src="script.js" defer></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- We use defer when the functionality relies on the DOM, and async when it doesn't rely on it an can run in the background -->
+    <script src="script.js" defer></script>
 
-  <title>Semaforizalo</title>
-</head>
-<body>
-  <div class="main">
-    <div class="line line-y--top"></div>
-    <div class="line line-y--bottom"></div>
-    <div class="line line-y--middle"></div>
-  </div>
-</body>
+    <title>Semaforizalo</title>
+  </head>
+  <body>
+    <div class="main">
+      <!-- Street Lines Left -->
+      <div class="line line-x--top"></div>
+      <div class="line line-x--middle"></div>
+      <div class="line line-x--bottom"></div>
+
+      <!-- Street Lines Right -->
+      <div class="line line-right line-x--top"></div>
+      <div class="line line-right line-x--middle"></div>
+      <div class="line line-right line-x--bottom"></div>
+    </div>
+  </body>
 </html>
