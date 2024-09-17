@@ -28,12 +28,22 @@ html {
 
   /* Sizes */
   padding: 5px;
-  width: 37.5vw;
 
   /* Aesthetic */
-  background-color: rgba(250, 204, 21, 0.6);
+  background-color: rgb(250, 204, 21);
+}
+
+.line-x {
+  width: 37.5vw;
   border-top: 5px solid rgba(0, 0, 0);
   border-bottom: 5px solid rgba(0, 0, 0);
+  /* Make the effect that lines are connected */
+  z-index: 10;
+}
+
+.line-x-middle {
+  border-top: 5px dashed rgba(0, 0, 0);
+  border-bottom: 5px dashed rgba(0, 0, 0);
 }
 
 .line-x--top {
@@ -46,11 +56,34 @@ html {
 
 .line-x--middle {
   top: calc(100vh / 2);
-  border-top: 5px dashed rgba(0, 0, 0);
-  border-bottom: 5px dashed rgba(0, 0, 0);
 }
 
 /* Right lines styling */
 .line-right {
-  left: 65vw;
+  right: 0;
+}
+
+/* Top line styling */
+.line-y {
+  height: 67.99vh;
+  outline: 5px solid rgba(0, 0, 0);
+}
+
+.line-y-top--left {
+  margin-left: 37.5vw;
+}
+
+.line-y-top--right {
+  right: 0;
+  margin-right: 37.5vw;
+}
+
+.line-y-middle {
+  outline: 0;
+  border-right: 5px dashed rgba(0, 0, 0);
+  border-left: 5px dashed rgba(0, 0, 0);
+}
+
+.line-y-top--middle {
+  right: 49.5vw;
 }
