@@ -9,6 +9,7 @@ html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #eee;
+  overflow: hidden;
 }
 
 /* Application Container */
@@ -63,7 +64,7 @@ html {
   right: 0;
 }
 
-/* Top line styling */
+/* Top and bottom lines styling */
 .line-y {
   height: 67.99vh;
   outline: 5px solid rgba(0, 0, 0);
@@ -86,4 +87,50 @@ html {
 
 .line-y-top--middle {
   right: 49.5vw;
+}
+
+/* Bottom Lines */
+.line-y-bottom {
+  margin-top: 83vh;
+  height: 34vh;
+}
+
+.line-y-bottom--left {
+  margin-left: 37.5vw;
+}
+
+.line-y-bottom--right {
+  right: 0;
+  margin-right: 37.5vw;
+}
+
+.line-y-bottom--middle {
+  right: 49.5vw;
+}
+
+/* Cars */
+.car {
+  position: absolute;
+  width: 8vw;
+  height: 8vh;
+}
+
+.car-x--top {
+  top: 38vh;
+  left: 0;
+}
+
+.car-x--bottom {
+  top: 55vh;
+  left: 0;
+}
+
+.car-y--left {
+  top: 0;
+  left: 39.5vw;
+}
+
+.car-y--right {
+  top: 0;
+  left: 52vw;
 }
