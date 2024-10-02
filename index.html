@@ -38,6 +38,29 @@
       <img src="/media/car_2.png" alt="car" class="car car-x--bottom" />
       <img src="/media/car_3.png" alt="car" class="car car-y--left" />
       <img src="/media/car_4.png" alt="car" class="car car-y--right" />
-    </div>
+
+      <!-- Semaforos -->
+      <div class="traffic traffic-left">
+        <div class="light light-red light-inactive"></div>
+        <div class="light light-yellow light-inactive"></div>
+        <div class="light light-green"></div>
+      </div>
+
+      <div class="traffic traffic-top">
+        <div class="light light-red"></div>
+        <div class="light light-yellow light-inactive"></div>
+        <div class="light light-green light-inactive"></div>
+      </div>
+
+      <!-- Contadores -->
+      <p class="counter counter--time">Tiempo: <span class="time">0</span></p>
+      <p class="counter counter--cross">Cruces Totales: <span class="cross">0</span></p>
+
+      <!-- Using counter class to style -->
+      <p class="counter modes-txt">Modos de Simulación</p>
+      <button class="btn btn-modes btn--traditional">TRADICIONAL</button>
+      <button class="btn btn-modes btn--smart">INTELIGENTE</button>
+
+      <button class="btn btn-start">INICIAR</button>
   </body>
 </html>

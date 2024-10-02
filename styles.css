@@ -134,3 +134,125 @@ html {
   top: 0;
   left: 52vw;
 }
+
+/* Traffic Light */
+.traffic {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 22vh;
+  width: 4.5vw;
+  padding: 1rem 0 1rem 0;
+
+  background-color: #71717a;
+  border: 3.5px solid black;
+  z-index: 100;
+}
+
+.traffic-left {
+  left: 34vw;
+  top: 40vh;
+}
+
+.traffic-top {
+  left: 47.5vw;
+  top: 20vh;
+  transform: rotate(-90deg);
+}
+
+.light {
+  width: 3.5rem;
+  height: 3.5rem;
+
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.light-red {
+  background-color: #dc2626;
+}
+
+.light-yellow {
+  background-color: #ca8a04;
+}
+
+.light-green {
+  background-color: #16a34a;
+}
+
+.light-inactive {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Estilos botones */
+.btn {
+  display: inline-block;
+  position: absolute;
+
+  font-weight: 600;
+  color: #222;
+  font-size: 2.4rem;
+  letter-spacing: 0.6px;
+  background-color: #ddd;
+
+  border-radius: 1rem;
+  border: 0;
+  box-shadow: 10px 10px 37px 0px rgba(0, 0, 0, 0.75);
+
+  transition: 0.2s all;
+}
+
+/* Boton para iniciar */
+.btn-start {
+  top: 13.5vh;
+  left: 78vw;
+
+  padding: 2rem 1.5rem;
+}
+
+.btn:hover {
+  background-color: #999;
+}
+
+.btn:active {
+  background-color: #ddd;
+}
+
+.counter {
+  position: absolute;
+  color: #fff;
+  font-size: 3.6rem;
+  font-weight: 600;
+  left: 68vw;
+}
+
+.counter--time {
+  top: 72vh;
+}
+
+.counter--cross {
+  top: 78.5vh;
+}
+
+.modes-txt {
+  left: 6vw;
+  top: 6vh;
+}
+
+.btn-modes {
+  font-size: 2.2rem;
+  padding: 1rem 0.5rem;
+  top: 14vh;
+}
+
+.btn--traditional {
+  left: 5.5vw;
+}
+
+.btn--smart {
+  left: 19vw;
+  opacity: 0.5;
+}
